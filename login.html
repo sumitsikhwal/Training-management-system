@@ -1,0 +1,50 @@
+<html>
+<head>
+ <title> UTD </title>
+ <link rel="stylesheet" href="css/bootstrap.css">
+ <link rel="stylesheet" href="css/components.css">
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="mainstyle.css">
+ <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+ <script src="js/bootstrap.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/components.js"></script> 
+ <script src="js/login.js"></script>
+</head>
+<body style="background-image:url('images/light-gray-background.jpg'); background-attachment: fixed">
+ 
+ <div name="titleBar" class="well orange-titlebar">
+	<img src="images/utd-logo-small.png">
+	<div class="component-top-right">
+	<img src="images/people.png">
+	</div>
+ </div>
+ 
+ <div name="navbar">
+	
+ </div>
+ 
+ <div name="loginForm" class="container grey-gradient">
+  <h2 style="color: #6A6A66">Login</h2>
+  <hr>
+  <form role="form" style="margin:4% 22% 4%">
+    <div class="form-group">
+      <label for="email" class="label-for-textfield">Username</label>
+      <input type="email" class="form-control" id="netid" placeholder="Enter your Net ID">
+    </div>
+    <div class="form-group">
+      <label for="pwd" class="label-for-textfield">Password</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+	<br>
+	<center>
+     <button type="submit" class="btn-blue" onclick="login()"><b> &nbspLogin&nbsp <b></button>
+	 <br><br><a href="https://netid.utdallas.edu/" style="color: #007700">Forgot Password? Click here.</a>
+    </center>
+  </form>
+ </div>
+ <div id="response">
+ </div>
+ 
+</body>
+</html>
